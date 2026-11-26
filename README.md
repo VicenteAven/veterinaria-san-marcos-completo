@@ -1,2 +1,0 @@
-# conecta-cultura
-fullstack II
