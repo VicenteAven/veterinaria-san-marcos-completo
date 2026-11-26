@@ -1,0 +1,10 @@
+package cl.duoc.auth.repository;
+
+import cl.duoc.auth.model.Rol;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Optional;
+
+public interface RolRepository extends JpaRepository<Rol, Long> {
+    Optional<Rol> findByNombre(String nombre);
+}
